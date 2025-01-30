@@ -1,10 +1,15 @@
+# bot.py
 import os
 import json
 import logging
 import discord
-from pathlib import Path
+import sys
+from datetime import datetime
 from discord.ext import commands
 from dotenv import load_dotenv
+
+# Tambahkan path project ke sys.path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 load_dotenv()
 
@@ -13,12 +18,14 @@ class AlbionGoldBot(commands.Bot):
         super().__init__(
             command_prefix="!",
             intents=discord.Intents.all(),
-            help_command=None
+            help_command=None,
+            owner_id=1234567890  # Ganti dengan ID Discord Anda
         )
         self.base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.config = self.load_config()
+        self.start_time = datetime.now()
         self.setup_logger()
-        
+
     def load_config(self):
         config_path = os.path.join(self.base_dir, "config", "default.json")
         
@@ -63,15 +70,24 @@ class AlbionGoldBot(commands.Bot):
         await self.load_extensions()
         
     async def load_extensions(self):
-        for extension in ["commands.general", "commands.live", "commands.history"]:
-            try:
-                await self.load_extension(extension)
-                self.logger.info(f"Loaded extension: {extension}")
-            except Exception as e:
-                self.logger.error(f"Failed to load {extension}: {str(e)}")
+        commands_dir = os.path.join(self.base_dir, "commands")
+        
+        if not os.path.exists(commands_dir):
+            self.logger.error("❌ Folder commands tidak ditemukan!")
+            return
+        
+        for filename in os.listdir(commands_dir):
+            if filename.endswith(".py") and not filename.startswith("__"):
+                extension_name = f"commands.{filename[:-3]}"
+                try:
+                    await self.load_extension(extension_name)
+                    self.logger.info(f"✅ Loaded: {extension_name}")
+                except Exception as e:
+                    self.logger.error(f"❌ Gagal load {extension_name}: {str(e)}")
 
     async def on_ready(self):
-        self.logger.info(f"Bot {self.user} is ready!")
+        self.logger.info(f"🤖 Bot {self.user} aktif!")
+        self.logger.info(f"⏱ Uptime: {datetime.now() - self.start_time}")
 
 if __name__ == "__main__":
     bot = AlbionGoldBot()

@@ -1,4 +1,10 @@
 {
     "api_url": "https://east.albion-online-data.com/api/v2/stats/gold",
-    "konstanta_c": 30070000
+    "konstanta_c": 30070000,
+    "ts_host": "47.245.108.198",
+    "ts_port": 10011,
+    "ts_username": "serveradmin",
+    "ts_password": "KlK3JLwP",
+    "ts_virtualserver_id": 1,
+    "ts_notify_channel": "1334301105341071370"
 }
