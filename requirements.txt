@@ -1,3 +1,17 @@
-discord.py>=2.0.0
-python-dotenv>=0.19.0
-requests>=2.26.0
+# Core Dependencies
+discord.py>=2.3.2
+python-dotenv>=0.21.1
+requests>=2.31.0
+
+# TeamSpeak Integration
+ts3>=1.2.0
+
+# Utilities
+humanize>=4.7.0
+asyncio>=3.4.3
+
+# Logging
+logging>=0.5.1.2
+
+# Date and Time
+python-dateutil>=2.8.2

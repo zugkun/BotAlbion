@@ -1,8 +1,62 @@
-2025-01-30 04:43:02 - INFO - Loaded extension: commands.general
-2025-01-30 04:43:02 - INFO - Loaded extension: commands.live
-2025-01-30 04:43:03 - INFO - Loaded extension: commands.history
-2025-01-30 04:43:06 - INFO - Bot GAME MASTER#5584 is ready!
-2025-01-30 04:43:26 - INFO - Loaded extension: commands.general
-2025-01-30 04:43:26 - INFO - Loaded extension: commands.live
-2025-01-30 04:43:27 - INFO - Loaded extension: commands.history
-2025-01-30 04:43:30 - INFO - Bot GAME MASTER#5584 is ready!
+2025-01-30 06:05:41 - INFO - ✅ Loaded: commands.general
+2025-01-30 06:05:42 - INFO - ✅ Loaded: commands.history
+2025-01-30 06:05:42 - INFO - ✅ Loaded: commands.serverstatus
+2025-01-30 06:05:42 - INFO - ✅ Loaded: commands.teamspeak
+2025-01-30 06:05:45 - INFO - 🤖 Bot GAME MASTER#5584 aktif!
+2025-01-30 06:05:45 - INFO - ⏱ Uptime: 0:00:04.881042
+2025-01-30 06:08:51 - INFO - ✅ Loaded: commands.general
+2025-01-30 06:08:52 - INFO - ✅ Loaded: commands.history
+2025-01-30 06:08:52 - INFO - ✅ Loaded: commands.serverstatus
+2025-01-30 06:08:52 - INFO - ✅ Loaded: commands.teamspeak
+2025-01-30 06:08:54 - INFO - 🤖 Bot GAME MASTER#5584 aktif!
+2025-01-30 06:08:54 - INFO - ⏱ Uptime: 0:00:04.642397
+2025-01-30 06:10:00 - ERROR - TS3 Connection Error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-30 06:10:21 - ERROR - TS3 Connection Error: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-30 06:10:57 - INFO - ✅ Loaded: commands.general
+2025-01-30 06:10:58 - INFO - ✅ Loaded: commands.history
+2025-01-30 06:10:58 - INFO - ✅ Loaded: commands.serverstatus
+2025-01-30 06:10:58 - INFO - ✅ Loaded: commands.teamspeak
+2025-01-30 06:11:01 - INFO - 🤖 Bot GAME MASTER#5584 aktif!
+2025-01-30 06:11:01 - INFO - ⏱ Uptime: 0:00:05.304167
+2025-01-30 06:11:06 - ERROR - TS3 Connection Error: [Errno 11001] getaddrinfo failed
+2025-01-30 06:11:20 - ERROR - TS3 Connection Error: [Errno 11001] getaddrinfo failed
+2025-01-30 06:12:30 - INFO - ✅ Loaded: commands.general
+2025-01-30 06:12:31 - INFO - ✅ Loaded: commands.history
+2025-01-30 06:12:31 - INFO - ✅ Loaded: commands.serverstatus
+2025-01-30 06:12:31 - INFO - ✅ Loaded: commands.teamspeak
+2025-01-30 06:12:34 - INFO - 🤖 Bot GAME MASTER#5584 aktif!
+2025-01-30 06:12:34 - INFO - ⏱ Uptime: 0:00:04.667641
+2025-01-30 06:12:36 - ERROR - TS3 Connection Error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-30 06:12:41 - ERROR - TS3 Connection Error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-30 06:13:20 - INFO - ✅ Loaded: commands.general
+2025-01-30 06:13:21 - INFO - ✅ Loaded: commands.history
+2025-01-30 06:13:21 - INFO - ✅ Loaded: commands.serverstatus
+2025-01-30 06:13:21 - INFO - ✅ Loaded: commands.teamspeak
+2025-01-30 06:13:24 - INFO - 🤖 Bot GAME MASTER#5584 aktif!
+2025-01-30 06:13:24 - INFO - ⏱ Uptime: 0:00:04.722181
+2025-01-30 06:13:58 - ERROR - TS3 Connection Error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-30 06:14:20 - INFO - ✅ Loaded: commands.general
+2025-01-30 06:14:21 - INFO - ✅ Loaded: commands.history
+2025-01-30 06:14:21 - INFO - ✅ Loaded: commands.serverstatus
+2025-01-30 06:14:21 - INFO - ✅ Loaded: commands.teamspeak
+2025-01-30 06:14:24 - INFO - 🤖 Bot GAME MASTER#5584 aktif!
+2025-01-30 06:14:24 - INFO - ⏱ Uptime: 0:00:04.722161
+2025-01-30 06:15:30 - INFO - ✅ Loaded: commands.general
+2025-01-30 06:15:30 - INFO - ✅ Loaded: commands.history
+2025-01-30 06:15:30 - INFO - ✅ Loaded: commands.serverstatus
+2025-01-30 06:15:31 - INFO - ✅ Loaded: commands.teamspeak
+2025-01-30 06:15:33 - INFO - 🤖 Bot GAME MASTER#5584 aktif!
+2025-01-30 06:15:33 - INFO - ⏱ Uptime: 0:00:04.683704
+2025-01-30 06:17:48 - INFO - ✅ Loaded: commands.general
+2025-01-30 06:17:49 - INFO - ✅ Loaded: commands.history
+2025-01-30 06:17:49 - INFO - ✅ Loaded: commands.serverstatus
+2025-01-30 06:17:49 - INFO - ✅ Loaded: commands.teamspeak
+2025-01-30 06:17:52 - INFO - 🤖 Bot GAME MASTER#5584 aktif!
+2025-01-30 06:17:52 - INFO - ⏱ Uptime: 0:00:04.616222
+2025-01-30 06:17:52 - INFO - TS3 Listener started!
+2025-01-30 06:19:09 - INFO - ✅ Loaded: commands.general
+2025-01-30 06:19:10 - INFO - ✅ Loaded: commands.history
+2025-01-30 06:19:10 - INFO - ✅ Loaded: commands.serverstatus
+2025-01-30 06:19:10 - INFO - ✅ Loaded: commands.teamspeak
+2025-01-30 06:19:13 - INFO - 🤖 Bot GAME MASTER#5584 aktif!
+2025-01-30 06:19:13 - INFO - ⏱ Uptime: 0:00:04.723775
